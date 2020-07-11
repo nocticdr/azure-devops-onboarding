@@ -66,7 +66,7 @@ eval $(ssh-agent -s)
 ssh-add -K ~/.ssh/id_rsa
 ```
 
-1. Copy the public key by running `cat ~/.ssh/id_rsa.pub` or open id_rsa.pub with a standard texteditor, and paste it in your DevOps account under [SSH Public Keys](https://dev.azure.com/ORGANIZATION-NAME/_usersSettings/keys)
+1. Copy the public key by running `cat ~/.ssh/id_rsa.pub` or open id_rsa.pub with a standard texteditor, and paste it in your DevOps account. Replace your organization name accordingly: https://dev.azure.com/ORGANIZATION-NAME/_usersSettings/keys
 
 2. If you have multiple private keys for different services, you specify which service should use which key. To do that, modify the SSH config file accordingly. Here's a [sample](./docs/sshconfig) you can use.
 

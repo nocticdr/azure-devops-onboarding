@@ -161,6 +161,7 @@ Both will make it easier to differentiate between different files at a glance.
 | `CTRL + =` | Zoom in layout |
 | `CTRL + -` | Zoom out layout |
 | `CTRL + SHIFT + TAB` | Open previous file |
+| `CTRL + B` | Hide explorer |
 
 More VSCode windows shortcuts [here](./docs/keyboard-shortcuts-windows.pdf)
 
